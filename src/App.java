@@ -1,5 +1,6 @@
 public class App {
     // Códigos ANSI para colores de texto
+    public static final String RESET = "\u001B[0m";
     public static final String NEGRO = "\u001B[30m";
     public static final String ROJO = "\u001B[31m";
     public static final String VERDE = "\u001B[32m";
@@ -17,15 +18,16 @@ public class App {
     public static final String FONDO_PURPURA = "\u001B[45m";
     public static final String FONDO_CYAN = "\u001B[46m";
     public static final String FONDO_BLANCO = "\u001B[47m";
+
     public static void main(String[] args) throws Exception {
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s","Lunes","Martes","Miércoles","Jueves","Viernes\n");
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s","═══════════","════════════","═══════════════","════════════","═══════\n");
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s","SI","PROG","SI","IPE","BD\n");
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s","SI","PROG","SI","IPE","BD\n");
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s","LM","PROG","IPE","PROG","SI\n");
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s","LM","BD","DIG","PROG","ED\n");
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s","BD","BD","PROG","PROG","ED\n");
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s","BD","SOS","PROG","LM","ED\n");
-        
+        System.out.print(RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n","Lunes","Martes","Miércoles","Jueves","Viernes");
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n","═══════════","════════════","═══════════════","════════════","═══════");
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AZUL+"SI"+RESET, FONDO_CYAN+"PROG"+RESET, FONDO_AZUL+"SI"+RESET,FONDO_ROJO+"IPE"+RESET, FONDO_AMARILLO+"BD"+RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AZUL+"SI"+RESET, FONDO_CYAN+"PROG"+RESET, FONDO_AZUL+"SI"+RESET,FONDO_ROJO+"IPE"+RESET, FONDO_AMARILLO+"BD"+RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_PURPURA+"LM"+RESET, FONDO_CYAN+"PROG"+RESET, FONDO_ROJO+"IPE"+RESET,FONDO_CYAN+"PROG"+RESET, FONDO_AZUL+"SI"+RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_PURPURA+"LM"+RESET, FONDO_AMARILLO+"BD"+RESET, FONDO_BLANCO+"DIG"+RESET,FONDO_CYAN+"PROG"+RESET, FONDO_NEGRO+"ED"+RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AMARILLO+"BD"+RESET, FONDO_AMARILLO+"BD"+RESET, FONDO_CYAN+"PROG"+RESET,FONDO_CYAN+"PROG"+RESET, FONDO_NEGRO+"ED"+RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AMARILLO+"BD"+RESET, FONDO_VERDE+"SOS"+RESET, FONDO_CYAN+"PROG"+RESET,FONDO_PURPURA+"LM"+RESET, FONDO_NEGRO+"ED"+RESET);
     }
 }
