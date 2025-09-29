@@ -21,13 +21,13 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         System.out.print(RESET);
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n","Lunes","Martes","Miércoles","Jueves","Viernes");
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n","═══════════","════════════","═══════════════","════════════","═══════");
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AZUL+"SI"+RESET, FONDO_CYAN+"PROG"+RESET, FONDO_AZUL+"SI"+RESET,FONDO_ROJO+"IPE"+RESET, FONDO_AMARILLO+"BD"+RESET);
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AZUL+"SI"+RESET, FONDO_CYAN+"PROG"+RESET, FONDO_AZUL+"SI"+RESET,FONDO_ROJO+"IPE"+RESET, FONDO_AMARILLO+"BD"+RESET);
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_PURPURA+"LM"+RESET, FONDO_CYAN+"PROG"+RESET, FONDO_ROJO+"IPE"+RESET,FONDO_CYAN+"PROG"+RESET, FONDO_AZUL+"SI"+RESET);
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_PURPURA+"LM"+RESET, FONDO_AMARILLO+"BD"+RESET, FONDO_BLANCO+"DIG"+RESET,FONDO_CYAN+"PROG"+RESET, FONDO_NEGRO+"ED"+RESET);
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AMARILLO+"BD"+RESET, FONDO_AMARILLO+"BD"+RESET, FONDO_CYAN+"PROG"+RESET,FONDO_CYAN+"PROG"+RESET, FONDO_NEGRO+"ED"+RESET);
-        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AMARILLO+"BD"+RESET, FONDO_VERDE+"SOS"+RESET, FONDO_CYAN+"PROG"+RESET,FONDO_PURPURA+"LM"+RESET, FONDO_NEGRO+"ED"+RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n","   Lunes   ","    Martes  ","   Miércoles   ","   Jueves   ","  Viernes ");
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n","═══════════","════════════","═══════════════","════════════","══════════");
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AZUL+"    SI     "+RESET, FONDO_CYAN+"    PROG    "+RESET, FONDO_AZUL+"      SI       "+RESET,FONDO_ROJO+"    IPE     "+RESET, FONDO_AMARILLO+"    BD    "+RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AZUL+"    SI     "+RESET, FONDO_CYAN+"    PROG    "+RESET, FONDO_AZUL+"      SI       "+RESET,FONDO_ROJO+"    IPE     "+RESET, FONDO_AMARILLO+"    BD    "+RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_PURPURA+"    LM     "+RESET, FONDO_CYAN+"    PROG    "+RESET, FONDO_ROJO+"      IPE      "+RESET,FONDO_CYAN+"    PROG    "+RESET, FONDO_AZUL+"    SI    "+RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_PURPURA+"    LM     "+RESET, FONDO_AMARILLO+"     BD     "+RESET, FONDO_BLANCO+"      DIG      "+RESET,FONDO_CYAN+"    PROG    "+RESET, FONDO_NEGRO+"    ED    "+RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AMARILLO+"    BD     "+RESET, FONDO_AMARILLO+"     BD     "+RESET, FONDO_CYAN+"      PROG     "+RESET,FONDO_CYAN+"    PROG    "+RESET, FONDO_NEGRO+"    ED    "+RESET);
+        System.out.printf("%-11s%-12s%-15s%-12s%-12s%n",FONDO_AMARILLO+"    BD     "+RESET, FONDO_VERDE+"     SOS    "+RESET, FONDO_CYAN+"      PROG     "+RESET,FONDO_PURPURA+"     LM     "+RESET, FONDO_NEGRO+"    ED    "+RESET);
     }
 }
